@@ -95,7 +95,7 @@ button#set {
   margin: 1.5em auto 0 auto;
   border-radius: 0.5em;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.2s;
 }
 
 button#set:hover {
@@ -210,5 +210,10 @@ button#set:hover {
 @media screen and (max-width: 456px) {
   body {
     overflow-x: hidden;
+  }
+
+  button#set:hover {
+    border: 1px solid #ccc;
+    color: #fff;
   }
 }
